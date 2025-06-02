@@ -15,4 +15,13 @@ public class ConversorDeMoneda {
         cantidadConvertida = cantidad*moneda.conversion_rate();
         System.out.println("La cantidad total convertida es " +cantidadConvertida+" "+monedaTarget);
     }
+
+    public static void convertirMasMonedas(ConsultaMoneda consultaMoneda,Scanner scanner) throws IOException, InterruptedException {
+
+        System.out.println("Ingresa la moneda base a convertir");
+        String monedaBase = scanner.nextLine().toUpperCase();
+        System.out.println("Ingresa la moneda que desea obtener");
+        String monedaAObtener = scanner.nextLine().toUpperCase();
+        convertirMoneda(monedaBase,monedaAObtener,consultaMoneda,scanner);
+    }
 }

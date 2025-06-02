@@ -19,7 +19,9 @@ public class Principal {
                     +"4) Dolares Australianos =>> soles"+"\n"
                     +"5) Dolar =>> Dolares Australianos"+"\n"
                     +"6) Dolar =>> Peso Colombiano"+"\n"
-                    +"7) Salir");
+                    +"7) Dolar =>> Peso Colombiano"+"\n"
+                    +"8) Salir");
+
             opcionEscogida = scanner.nextInt();
             scanner.nextLine();
 
@@ -43,6 +45,9 @@ public class Principal {
                     ConversorDeMoneda.convertirMoneda("USD","COP", consultaMoneda, scanner);
                     break;
                 case 7:
+                    ConversorDeMoneda.convertirMasMonedas(consultaMoneda,scanner);
+                    break;
+                case 8:
                     System.out.println("Hasta pronto ;)");
                     break;
             }

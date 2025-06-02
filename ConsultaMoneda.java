@@ -8,9 +8,9 @@ import java.net.http.HttpResponse;
 
 public class ConsultaMoneda {
 
-    public Moneda encontrarMoneda(String convertirFrom, String convertirTo) throws IOException, InterruptedException {
+    public Moneda encontrarMoneda(String monedaBase, String monedaTarget) throws IOException, InterruptedException {
 
-        String direccion = "https://v6.exchangerate-api.com/v6/b3657e56053dc65c43800436/pair/"+convertirFrom+"/"+convertirTo;
+        String direccion = "https://v6.exchangerate-api.com/v6/b3657e56053dc65c43800436/pair/"+monedaBase+"/"+monedaTarget;
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
