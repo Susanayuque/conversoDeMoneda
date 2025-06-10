@@ -17,7 +17,7 @@ Los pasos que se siguieron para desarrollar este proyecto fueron los siguientes:
 
 + __Conversor de moneda:__ En esta clase se convierte las monedas desde los datos obtenidos en la clase consultar moneda. Para lograrlo, se definen variables como: __"monedaBase, monedaTarget y la cantidad"__ que se desea convertir.
 
-+ __Principal:__ Al hacer clic en ícono Play ![image alt](https://github.com/Susanayuque/conversoDeMoneda/blob/f4abce3e5d1078284a029f9d1e15d5d20776a7a3/imagen.png|width=20), se muestra una lista de opciones de conversión de monedas que se debe escoger para continuar. Luego el sistema solicita la cantidad que se desea convertir. El resultado que se obtine es el tipo de cambio solicitado.
++ __Principal:__ Al hacer clic en ícono Play ![image alt](https://github.com/Susanayuque/conversoDeMoneda/blob/f4abce3e5d1078284a029f9d1e15d5d20776a7a3/imagen.png|width=100), se muestra una lista de opciones de conversión de monedas que se debe escoger para continuar. Luego el sistema solicita la cantidad que se desea convertir. El resultado que se obtine es el tipo de cambio solicitado.
 
 
 >[!NOTE]
