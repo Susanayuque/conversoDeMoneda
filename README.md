@@ -5,7 +5,7 @@ El presente repositorio es el resultado de la aplicación práctica de conceptos
 
 El objetivo de este desafío es crear una aplicación que permita a los usuarios convertir monedas de todo el mundo mediante el uso de APIs.
 
-<img src="/Users/susanmarilinayuquemartinez/Documents/intellJ/Orientado a objetos/conversoDeMoneda/conversorDeMonedas-imagen.textClipping" width="400"/>
+<img src="/Users/susanmarilinayuquemartinez/Documents/intellJ/imagen.png" width="400"/>
 
 ![image alt](https://github.com/Susanayuque/challenge-amigo-secreto/blob/d7f6171506fdaa2e1adb0d7255e286d50c6fa10f/imagenWeb.png)
 
