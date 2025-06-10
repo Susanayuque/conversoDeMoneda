@@ -1,3 +1,5 @@
+import com.google.gson.Gson;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ public class Principal {
 
         int opcionEscogida=0;
 
-        while (opcionEscogida!=7){
+        while (opcionEscogida!=8){
             System.out.println("<><><><><><><><><><><><><><><><><><><><><><>");
             System.out.println("Sea bienvenido al conversor de moneda =)");
             System.out.println("Elija un apcion valida");
@@ -19,7 +21,7 @@ public class Principal {
                     +"4) Dolares Australianos =>> soles"+"\n"
                     +"5) Dolar =>> Dolares Australianos"+"\n"
                     +"6) Dolar =>> Peso Colombiano"+"\n"
-                    +"7) Dolar =>> Peso Colombiano"+"\n"
+                    +"7) Otra conversion "+"\n"
                     +"8) Salir");
 
             opcionEscogida = scanner.nextInt();
@@ -49,6 +51,9 @@ public class Principal {
                     break;
                 case 8:
                     System.out.println("Hasta pronto ;)");
+                    break;
+                default:
+                    System.out.println("Elija una opcion valida");
                     break;
             }
         }

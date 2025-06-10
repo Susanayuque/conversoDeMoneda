@@ -21,6 +21,7 @@ public class ConsultaMoneda {
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
             String json = response.body();
+
             return new Gson().fromJson(json, Moneda.class);
         }
 
@@ -28,5 +29,7 @@ public class ConsultaMoneda {
 
             throw new RuntimeException("La moneda no se encontro");
         }
+
+
     }
 }
